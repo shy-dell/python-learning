@@ -7,5 +7,5 @@ except:
     "File does not exist"
 
 for line in fh:
-    line = line.rstrip()
-    print(line)
+    upper = line.upper().rstrip()
+    print(upper)
