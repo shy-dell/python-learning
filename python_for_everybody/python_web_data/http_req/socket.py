@@ -12,3 +12,5 @@ while True:
     print(data.decode(),end='')
 
 mysock.close()
+
+#couldn't get the above to work so did the manual search with devtools console
