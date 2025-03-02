@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+    <!-- use double curly braces to print code result -->
+    {% block head %}{% endblock %}
+    <!-- jinja 2 syntax i.e., the template engine flask uses where we will insert our code for 'heirs' -->
+</head>
+<body>
+    {% block body %}{% endblock %}
+</body>
+</html>
